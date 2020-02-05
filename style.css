@@ -1,0 +1,81 @@
+body {
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Mukta', sans-serif;
+  margin: 0 auto;
+  background-color: #EDF4ED
+
+}
+.main-countainer {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;                         /* White background */
+  padding: 30px;
+  margin-top: 40px;                            /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  /*display: flex;    Light shadow */
+}
+
+.img-circle {
+  border-radius: 4px;
+}
+
+.btn {
+  width: 50%;
+  color: white;
+  text-align: center;
+  background-color: #79B791;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+i {
+  text-decoration: none;
+  font-size: 40px;
+  color: #565254;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+
+  font-size: 15px;
+}
+
+
+i:hover, a:hover {
+  color:#777174
+}
+
+a:visited {
+  color: #565254;
+}
+
+ul {
+  margin: none;
+}
+
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main-countainer {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main-countainer {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .main-countainer {
+    width: 300px;
+  }
+}
